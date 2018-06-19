@@ -4,7 +4,6 @@
 import React, { Component } from 'react';
 import './App.css';
 import { connect } from 'react-redux';
-import { push } from 'redux-first-routing'
 import { activateInfo, closeInfo } from './actionsReducerStore';
 import Nav from './Components/Nav';
 import { match } from './router'
